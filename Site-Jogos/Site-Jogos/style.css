@@ -88,7 +88,7 @@ body.farcry4 {
 }
 
 body.gtav {
-    background-image: url("Imagens/Imagens_GTA_V/Grand_Theft_Auto_V_capa_jogo.jpg");
+    background-image: url("Imagens/imagem.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -102,7 +102,7 @@ body.zomboid {
 }
 
 body.valorant {
-    background-image: url("Imagens/Imagens_Valorant_jogo/Capa.jpg");
+    background-image: url("Imagens/imagem.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
