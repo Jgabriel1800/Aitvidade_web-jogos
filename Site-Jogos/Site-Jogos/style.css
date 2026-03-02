@@ -64,63 +64,20 @@ p {
     box-shadow: 0 0 15px #00ffff;
 }
 
+/* Classes das páginas */
 
-body.Fifa {
-    background-image: url("Imagens/Imagens_God_of_War_2/God_of_War_2_capa.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-body.skt3 {
-    background-image: url("Imagens/Imagens_Dark_Souls_3/Dark_Souls_3_capa.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-body.Pokémon {
-    background-image: url("Imagens/Imagens_Far_Cry_4/FC4_capa.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-body.gtav {
-    background-image: url("Imagens/imagem.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-body.Batman {
-    background-image: url("Imagens/Imagens_Project_Zomboid/Project_Zomboid_PC_capa_digital.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
+body.fifa,
+body.skt3,
+body.pokemon,
+body.gtav,
+body.batman,
 body.valorant {
-    background-image: url("Imagens/imagem.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-body.Fifa::before,
-body.skt3::before,
-body.Pokémon::before,
-body.gtav::before,
-body.Batman::before,
-body.valorant::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.7);
-    z-index: 0;
-}
+
+/* Escurecimento */
 
 body::before {
     content: "";
