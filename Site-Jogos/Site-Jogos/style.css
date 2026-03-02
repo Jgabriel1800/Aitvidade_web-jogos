@@ -64,22 +64,23 @@ p {
     box-shadow: 0 0 15px #00ffff;
 }
 
-body.Fifa {
 
+body.Fifa {
+    background-image: url("Imagens/Imagens_God_of_War_2/God_of_War_2_capa.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-body.skt3{
-
+body.skt3 {
+    background-image: url("Imagens/Imagens_Dark_Souls_3/Dark_Souls_3_capa.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 body.Pokémon {
-
+    background-image: url("Imagens/Imagens_Far_Cry_4/FC4_capa.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -93,7 +94,7 @@ body.gtav {
 }
 
 body.Batman {
-
+    background-image: url("Imagens/Imagens_Project_Zomboid/Project_Zomboid_PC_capa_digital.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -105,8 +106,6 @@ body.valorant {
     background-position: center;
     background-attachment: fixed;
 }
-
-
 body.Fifa::before,
 body.skt3::before,
 body.Pokémon::before,
@@ -133,8 +132,6 @@ body::before {
     background: rgba(0, 0, 0, 0.7);
     z-index: -1;
 }
-
-
 
 .conteudo-jogo {
     position: relative;
