@@ -43,8 +43,6 @@ p {
     font-weight: bold;
 }
 
-/* ===== GALERIA DE IMAGENS DOS JOGOS ===== */
-
 .galeria {
     display: flex;
     justify-content: center;
@@ -66,22 +64,22 @@ p {
     box-shadow: 0 0 15px #00ffff;
 }
 
-body.gow2 {
-    background-image: url("Imagens/Imagens_God_of_War_2/God_of_War_2_capa.jpg");
+body.Fifa {
+    background-image: url("Imagens/imagem.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-body.ds3 {
-    background-image: url("Imagens/Imagens_Dark_Souls_3/Dark_Souls_3_capa.jpg");
+body.skt3{
+    background-image: url("Imagens/imagem.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-body.farcry4 {
-    background-image: url("Imagens/Imagens_Far_Cry_4/FC4_capa.jpg");
+body.Pokémon {
+    background-image: url("Imagens/imagem.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -94,8 +92,8 @@ body.gtav {
     background-attachment: fixed;
 }
 
-body.zomboid {
-    background-image: url("Imagens/Imagens_Project_Zomboid/Project_Zomboid_PC_capa_digital.jpg");
+body.Batman {
+    background-image: url("Imagens/imagem.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -109,11 +107,11 @@ body.valorant {
 }
 
 
-body.gow2::before,
-body.ds3::before,
-body.farcry4::before,
+body.Fifa::before,
+body.skt3::before,
+body.Pokémon::before,
 body.gtav::before,
-body.zomboid::before,
+body.Batman::before,
 body.valorant::before {
     content: "";
     position: fixed;
