@@ -65,21 +65,21 @@ p {
 }
 
 body.Fifa {
-    background-image: url("Imagens/imagem.jpg");
+
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 body.skt3{
-    background-image: url("Imagens/imagem.jpg");
+
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 body.Pokémon {
-    background-image: url("Imagens/imagem.jpg");
+
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -93,7 +93,7 @@ body.gtav {
 }
 
 body.Batman {
-    background-image: url("Imagens/imagem.jpg");
+
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
