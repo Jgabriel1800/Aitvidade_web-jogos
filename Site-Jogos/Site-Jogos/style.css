@@ -43,6 +43,7 @@ p {
     font-weight: bold;
 }
 
+/* ===== GALERIA DE IMAGENS DOS JOGOS ===== */
 
 .galeria {
     display: flex;
@@ -66,46 +67,47 @@ p {
 }
 
 body.gow2 {
-    background-image: url("C:\Users\jgabr\Downloads\imagem.jpg");
+    background-image: url("Imagens/Imagens_God_of_War_2/God_of_War_2_capa.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 body.ds3 {
-    background-image: url("C:\Users\jgabr\Downloads\imagem.jpg");
+    background-image: url("Imagens/Imagens_Dark_Souls_3/Dark_Souls_3_capa.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 body.farcry4 {
-    background-image: url("C:\Users\jgabr\Downloads\imagem.jpg");
+    background-image: url("Imagens/Imagens_Far_Cry_4/FC4_capa.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 body.gtav {
-    background-image: url("C:\Users\jgabr\Downloads\imagem.jpg");
+    background-image: url("Imagens/Imagens_GTA_V/Grand_Theft_Auto_V_capa_jogo.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 body.zomboid {
-    background-image: url("C:\Users\jgabr\Downloads\imagem.jpg");
+    background-image: url("Imagens/Imagens_Project_Zomboid/Project_Zomboid_PC_capa_digital.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 body.valorant {
-    background-image: url("C:\Users\jgabr\Downloads\imagem.jpg");
+    background-image: url("Imagens/Imagens_Valorant_jogo/Capa.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+
 
 body.gow2::before,
 body.ds3::before,
@@ -133,6 +135,8 @@ body::before {
     background: rgba(0, 0, 0, 0.7);
     z-index: -1;
 }
+
+
 
 .conteudo-jogo {
     position: relative;
