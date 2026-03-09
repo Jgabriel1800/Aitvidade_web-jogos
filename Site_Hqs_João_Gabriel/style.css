@@ -7,32 +7,29 @@ h1{
     text-align:center;
 }
 
-/* Frame 1 */
 .menu{
     background-color:#434247;
 }
 
-/* Centraliza o texto do título do menu */
+
 .menu h3{
     text-align:center;
     color:white;
 }
 
-/* lista */
 ul{
     list-style:none;
     padding:0;
 }
 
-/* caixas das HQs */
+
 li{
-    background-color:#3D615B;
+    background-color:#13e5ec;
     margin:10px;
     padding:15px;
     text-align:center;
 }
 
-/* links */
 li a{
     text-decoration:none;
     color:white;
@@ -40,7 +37,6 @@ li a{
     display:block;
 }
 
-/* Frame 2 */
 .viewer{
-    background-color:#5C735E;
+    background-color:#13e5ec;
 }
