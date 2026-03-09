@@ -29,14 +29,14 @@ font-size:18px;
 margin:10px;
 border:none;
 border-radius:8px;
-background:#3D615B;
+background:#1741e8;
 color:white;
 cursor:pointer;
 transition:0.3s;
 }
 
 button:hover{
-background:#4e8078;
+background:#13e325;
 }
 
 .topo{
