@@ -39,8 +39,6 @@ button:hover{
 background:#4e8078;
 }
 
-/* ===== TOPO DO FRAME (DATA + NOME DO JOGO) ===== */
-
 .topo{
 display:flex;
 justify-content:space-between;
@@ -53,8 +51,6 @@ width:700px;
 margin:30px auto 0 auto;
 border-radius:10px;
 }
-
-/* ===== GALERIA DE IMAGENS ===== */
 
 .galeria{
 display:grid;
@@ -71,7 +67,6 @@ object-fit:cover;
 border-radius:8px;
 }
 
-/* efeito ao passar o mouse */
 
 .galeria img:hover{
 transform:scale(1.05);
@@ -79,7 +74,7 @@ transition:0.3s;
 }
 
 .quadro{
-background: #3D615B;
+background: #3033d4;
 padding:30px;
 margin:40px auto;
 width:700px;
